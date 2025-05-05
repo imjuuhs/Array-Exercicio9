@@ -6,7 +6,7 @@ public class App {
 
         int vetorA[] = new int[6];
         int vetorB[] = new int[6];
-        int vetorC[] = new int[6];  // vetor que vai guardar os elementos em comum
+        int vetorC[] = new int[6];                                    // vetor que vai guardar os elementos em comum
         int igual = 0;
 
 
@@ -26,7 +26,6 @@ public class App {
         read.close();
 
 
-
         // verificando elementos em comum
         for (int i = 0; i < vetorA.length; i++) {                     // verifica todos os valores de A
             
@@ -40,7 +39,6 @@ public class App {
                 }
             }
         }
-
 
 
         // resultados
